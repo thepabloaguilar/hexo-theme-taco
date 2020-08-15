@@ -1,0 +1,29 @@
+{
+  "name": "taco",
+  "version": "1.0.0",
+  "description": "A simple theme for Hexo",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepabloaguilar/hexo-theme-taco.git"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "blog",
+    "javascript"
+  ],
+  "author": "thepabloaguilar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thepabloaguilar/hexo-theme-taco/issues"
+  },
+  "homepage": "https://github.com/thepabloaguilar/hexo-theme-taco#readme"
+}
