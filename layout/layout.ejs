@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html <%= config.language ? " lang=" + config.language : ""%>>
+  <%- partial('_partial/head') %>
+  <body>
+      <div class="content max-width mx-auto">
+          <%- body %>
+      </div>
+  </body>
+</html>
