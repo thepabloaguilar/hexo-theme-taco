@@ -1,0 +1,9 @@
+logo:
+  color: white
+  background_color: black
+
+nav:
+  blog: /
+  about: /about/
+  articles: /articles/
+  projects: /projects/
