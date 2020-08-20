@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A simple theme for Hexo",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0"
+  },
   "devDependencies": {
     "gulp": "^4.0.2"
   },
