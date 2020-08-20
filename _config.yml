@@ -7,3 +7,9 @@ nav:
   about: /about/
   articles: /articles/
   projects: /projects/
+
+social_links:
+  github: https://github.com/thepabloaguilar/hexo-theme-taco
+  linkedin: https://github.com/thepabloaguilar/hexo-theme-taco
+  dev: https://github.com/thepabloaguilar/hexo-theme-taco
+  medium: https://github.com/thepabloaguilar/hexo-theme-taco
