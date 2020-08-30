@@ -8,7 +8,14 @@
     <%- meta_generator() %>
 
     <!-- open graph tags -->
-    <%- open_graph() %>
+    <%- open_graph({
+      type: theme.open_graph.type || 'blog',
+      twitter_id: theme.open_graph.twitter_id,
+      twitter_site: theme.open_graph.twitter_site,
+      google_plus: theme.open_graph.google_plus,
+      fb_admins: theme.open_graph.fb_admins,
+      fb_app_id: theme.open_graph.fb_app_id
+    }) %>
 
     <!-- styles -->
     <%- css('css/style') %>

@@ -15,3 +15,11 @@ social_links:
   medium: https://github.com/thepabloaguilar/hexo-theme-taco
 
 google_analytics:
+
+open_graph:
+  type:
+  twitter_id:
+  twitter_site:
+  google_plus:
+  fb_admins:
+  fb_app_id:
