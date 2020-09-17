@@ -15,4 +15,18 @@
       </ul>
     </nav>
   </div>
+  <% if (
+    theme.creative_common
+    && theme.creative_common.license
+    && theme.creative_common.version
+  ) { %>
+    <% var license = theme.creative_common.license %>
+    <% var version = theme.creative_common.version %>
+    <% var license_path = `${license}/${version}` %>
+    <div class="creative_common">
+      <a href="https://creativecommons.org/licenses/<%- license_path %>/">
+        <img src="https://licensebuttons.net/l/<%- license_path %>/80x15.png" />
+      </a>
+    </div>
+  <% } %>
 </footer>

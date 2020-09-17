@@ -25,3 +25,7 @@ open_graph:
   fb_app_id:
 
 disqus_shortname:
+
+creative_common:
+  license: by-nc
+  version: '4.0'
